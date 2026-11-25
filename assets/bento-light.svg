@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 848 188" width="100%" role="img" aria-label="Experience, Stack, and Open Source">
+  <defs>
+    <linearGradient id="card-surface-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f6f8fa" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+  </style>
+
+  <!-- Card 1: Experience -->
+  <g>
+    <rect x="0.5" y="0.5" width="273" height="187" rx="10" fill="url(#card-surface-light)" stroke="#d0d7de" stroke-width="1" />
+    <text x="21" y="29" class="mono" font-size="10.5" fill="#6e7781" letter-spacing="0.8">01 / EXPERIENCE</text>
+    <text x="21" y="58" class="sans" font-size="16" font-weight="600" fill="#1f2328" letter-spacing="-0.2">Front-End @ Neop</text>
+    <text x="21" y="83" class="sans" font-size="12.5" fill="#57606a">Building production dashboards,</text>
+    <text x="21" y="102" class="sans" font-size="12.5" fill="#57606a">fintech &amp; edtech web platforms,</text>
+    <text x="21" y="121" class="sans" font-size="12.5" fill="#57606a">and bilingual RTL/LTR systems.</text>
+    <line x1="21" y1="148.5" x2="253" y2="148.5" stroke="#eaeef2" stroke-width="1" />
+    <text x="21" y="169" class="mono" font-size="11" fill="#6e7781">2024 — Present</text>
+    <text x="253" y="169" text-anchor="end" class="mono" font-size="11" fill="#57606a">Full-time</text>
+  </g>
+
+  <!-- Card 2: Core Toolkit -->
+  <g>
+    <rect x="287.5" y="0.5" width="273" height="187" rx="10" fill="url(#card-surface-light)" stroke="#d0d7de" stroke-width="1" />
+    <text x="308" y="29" class="mono" font-size="10.5" fill="#6e7781" letter-spacing="0.8">02 / STACK</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(307.5, 44.5)">
+      <rect width="112" height="27" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
+      <circle cx="14" cy="13.5" r="3" fill="#42b883" />
+      <text x="24" y="17.5" class="sans" font-size="12" font-weight="500" fill="#1f2328">Vue 3</text>
+    </g>
+    <g transform="translate(428.5, 44.5)">
+      <rect width="112" height="27" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
+      <circle cx="14" cy="13.5" r="3" fill="#00c573" />
+      <text x="24" y="17.5" class="sans" font-size="12" font-weight="500" fill="#1f2328">Nuxt</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(307.5, 79.5)">
+      <rect width="112" height="27" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
+      <circle cx="14" cy="13.5" r="3" fill="#ff3e00" />
+      <text x="24" y="17.5" class="sans" font-size="12" font-weight="500" fill="#1f2328">SvelteKit</text>
+    </g>
+    <g transform="translate(428.5, 79.5)">
+      <rect width="112" height="27" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
+      <circle cx="14" cy="13.5" r="3" fill="#0284c7" />
+      <text x="24" y="17.5" class="sans" font-size="12" font-weight="500" fill="#1f2328">React</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(307.5, 114.5)">
+      <rect width="112" height="27" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
+      <circle cx="14" cy="13.5" r="3" fill="#3178c6" />
+      <text x="24" y="17.5" class="sans" font-size="12" font-weight="500" fill="#1f2328">TypeScript</text>
+    </g>
+    <g transform="translate(428.5, 114.5)">
+      <rect width="112" height="27" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
+      <circle cx="14" cy="13.5" r="3" fill="#0891b2" />
+      <text x="24" y="17.5" class="sans" font-size="12" font-weight="500" fill="#1f2328">Tailwind</text>
+    </g>
+
+    <line x1="308" y1="148.5" x2="540" y2="148.5" stroke="#eaeef2" stroke-width="1" />
+    <text x="308" y="169" class="mono" font-size="11" fill="#6e7781">GSAP · Bun · Vite · Laravel</text>
+  </g>
+
+  <!-- Card 3: Open Source -->
+  <g>
+    <rect x="574.5" y="0.5" width="273" height="187" rx="10" fill="url(#card-surface-light)" stroke="#d0d7de" stroke-width="1" />
+    <text x="595" y="29" class="mono" font-size="10.5" fill="#6e7781" letter-spacing="0.8">03 / OPEN SOURCE</text>
+    <text x="595" y="58" class="mono" font-size="14.5" font-weight="600" fill="#1f2328" letter-spacing="-0.3">antigravity-chat-sync</text>
+    <text x="595" y="83" class="sans" font-size="12.5" fill="#57606a">Project-scoped conversation</text>
+    <text x="595" y="102" class="sans" font-size="12.5" fill="#57606a">archiver &amp; multi-device sync</text>
+    <text x="595" y="121" class="sans" font-size="12.5" fill="#57606a">toolkit with path remapping.</text>
+    <line x1="595" y1="148.5" x2="827" y2="148.5" stroke="#eaeef2" stroke-width="1" />
+    <text x="595" y="169" class="mono" font-size="11" fill="#6e7781">TypeScript · Bun</text>
+    <text x="827" y="169" text-anchor="end" class="mono" font-size="11" fill="#57606a">CLI Tool</text>
+  </g>
+</svg>

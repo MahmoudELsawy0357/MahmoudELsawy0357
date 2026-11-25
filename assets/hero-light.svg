@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 848 204" width="100%" role="img" aria-label="Mahmoud Elsawy — Front-End Developer">
+  <defs>
+    <pattern id="grid-light" width="36" height="36" patternUnits="userSpaceOnUse" x="24.5" y="16.5">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#eaeef2" stroke-width="1" />
+    </pattern>
+    <radialGradient id="fade-mask-grad" cx="50%" cy="50%" r="62%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <mask id="grid-mask">
+      <rect width="848" height="204" fill="url(#fade-mask-grad)" />
+    </mask>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+  </style>
+
+  <!-- Seamless GitHub Light Canvas -->
+  <rect width="848" height="204" fill="#ffffff" />
+
+  <!-- Vercel-style Masked Blueprint Grid -->
+  <rect width="848" height="204" fill="url(#grid-light)" mask="url(#grid-mask)" />
+
+  <!-- Architectural Frame -->
+  <rect x="24.5" y="16.5" width="799" height="171" fill="none" stroke="#d0d7de" stroke-width="1" />
+
+  <!-- Corner Crosshairs (+) -->
+  <g stroke="#8c959f" stroke-width="1">
+    <path d="M 19.5 16.5 L 29.5 16.5 M 24.5 11.5 L 24.5 21.5" />
+    <path d="M 818.5 16.5 L 828.5 16.5 M 823.5 11.5 L 823.5 21.5" />
+    <path d="M 19.5 187.5 L 29.5 187.5 M 24.5 182.5 L 24.5 192.5" />
+    <path d="M 818.5 187.5 L 828.5 187.5 M 823.5 182.5 L 823.5 192.5" />
+  </g>
+
+  <!-- Top Meta Row -->
+  <g transform="translate(52, 42)">
+    <rect x="0.5" y="0.5" width="232" height="23" rx="11.5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+    <circle cx="14" cy="12" r="3.5" fill="#1a7f37" />
+    <text x="25" y="15.5" class="mono" font-size="11" fill="#57606a">Front-End Engineer · @neop</text>
+  </g>
+  <text x="796" y="57.5" text-anchor="end" class="mono" font-size="11" fill="#6e7781" letter-spacing="1.2">EGYPT</text>
+
+  <!-- Editorial Headline -->
+  <text x="52" y="106" class="sans" font-size="30" font-weight="700" fill="#1f2328" letter-spacing="-0.7">Mahmoud Elsawy</text>
+
+  <!-- Restrained Copy -->
+  <text x="52" y="135" class="sans" font-size="14.5" fill="#57606a">
+    Designing and building fast, refined web interfaces and developer tools.
+  </text>
+  <text x="52" y="158" class="sans" font-size="13.5" fill="#6e7781">
+    Working across Vue, Nuxt, SvelteKit, React, and TypeScript with focus on clean UI architecture.
+  </text>
+</svg>
