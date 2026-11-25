@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 848 296" width="100%" role="img" aria-label="Selected Projects and Production Systems">
+  <defs>
+    <linearGradient id="proj-surface-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f6f8fa" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+  </style>
+
+  <!-- Project 1: antigravity-chat-sync -->
+  <g transform="translate(0, 0)">
+    <rect x="0.5" y="0.5" width="417" height="140" rx="10" fill="url(#proj-surface-light)" stroke="#d0d7de" stroke-width="1" />
+    <circle cx="22" cy="25" r="3.2" fill="#1a7f37" />
+    <text x="32" y="28.5" class="mono" font-size="10.5" fill="#57606a" letter-spacing="0.5">OPEN SOURCE · PUBLIC REPO</text>
+    <text x="396" y="28.5" text-anchor="end" class="mono" font-size="10.5" fill="#0969da">CLI ↗</text>
+
+    <text x="20" y="54" class="mono" font-size="15" font-weight="600" fill="#1f2328">antigravity-chat-sync</text>
+    <text x="20" y="76" class="sans" font-size="12.5" fill="#57606a">Project-scoped conversation archiver &amp; multi-device sync</text>
+    <text x="20" y="95" class="sans" font-size="12.5" fill="#57606a">engine with lossless cross-drive protobuf path remapping.</text>
+
+    <line x1="20" y1="112.5" x2="397" y2="112.5" stroke="#eaeef2" stroke-width="1" />
+    <text x="20" y="129" class="mono" font-size="11" fill="#6e7781">TypeScript · Bun · GitHub CLI · Markdown</text>
+  </g>
+
+  <!-- Project 2: SAAF FinTech -->
+  <g transform="translate(430, 0)">
+    <rect x="0.5" y="0.5" width="417" height="140" rx="10" fill="url(#proj-surface-light)" stroke="#d0d7de" stroke-width="1" />
+    <circle cx="22" cy="25" r="3.2" fill="#00a86b" />
+    <text x="32" y="28.5" class="mono" font-size="10.5" fill="#57606a" letter-spacing="0.5">FINTECH PLATFORM · @NEOP</text>
+    <text x="396" y="28.5" text-anchor="end" class="mono" font-size="10.5" fill="#6e7781">Production</text>
+
+    <text x="20" y="54" class="sans" font-size="15.5" font-weight="600" fill="#1f2328">SAAF Investment &amp; SuperAdmin</text>
+    <text x="20" y="76" class="sans" font-size="12.5" fill="#57606a">Investor &amp; administrative dashboards for real estate, equity,</text>
+    <text x="20" y="95" class="sans" font-size="12.5" fill="#57606a">and mutual fund portfolios compliant with KSA regulations.</text>
+
+    <line x1="20" y1="112.5" x2="397" y2="112.5" stroke="#eaeef2" stroke-width="1" />
+    <text x="20" y="129" class="mono" font-size="11" fill="#6e7781">Vue 3 · Nuxt · Tailwind CSS · REST APIs</text>
+  </g>
+
+  <!-- Project 3: Jeel, Seen & Althabit -->
+  <g transform="translate(0, 155)">
+    <rect x="0.5" y="0.5" width="417" height="140" rx="10" fill="url(#proj-surface-light)" stroke="#d0d7de" stroke-width="1" />
+    <circle cx="22" cy="25" r="3.2" fill="#0284c7" />
+    <text x="32" y="28.5" class="mono" font-size="10.5" fill="#57606a" letter-spacing="0.5">ENTERPRISE CONTROL SUITES · @NEOP</text>
+    <text x="396" y="28.5" text-anchor="end" class="mono" font-size="10.5" fill="#6e7781">Production</text>
+
+    <text x="20" y="54" class="sans" font-size="15.5" font-weight="600" fill="#1f2328">Jeel, Seen &amp; Althabit Dashboards</text>
+    <text x="20" y="76" class="sans" font-size="12.5" fill="#57606a">Multi-role EdTech &amp; industrial control panels, client portals,</text>
+    <text x="20" y="95" class="sans" font-size="12.5" fill="#57606a">and modular bilingual (Arabic RTL / English LTR) UI systems.</text>
+
+    <line x1="20" y1="112.5" x2="397" y2="112.5" stroke="#eaeef2" stroke-width="1" />
+    <text x="20" y="129" class="mono" font-size="11" fill="#6e7781">Vue 3 · TypeScript · Tailwind v4 · SCSS</text>
+  </g>
+
+  <!-- Project 4: Pawsket, Nobtha & Interactive Web -->
+  <g transform="translate(430, 155)">
+    <rect x="0.5" y="0.5" width="417" height="140" rx="10" fill="url(#proj-surface-light)" stroke="#d0d7de" stroke-width="1" />
+    <circle cx="22" cy="25" r="3.2" fill="#ea580c" />
+    <text x="32" y="28.5" class="mono" font-size="10.5" fill="#57606a" letter-spacing="0.5">PRODUCT &amp; MOTION INTERFACES</text>
+    <text x="396" y="28.5" text-anchor="end" class="mono" font-size="10.5" fill="#6e7781">Web Apps</text>
+
+    <text x="20" y="54" class="sans" font-size="15.5" font-weight="600" fill="#1f2328">Nobtha, Pawsket &amp; Motion Web</text>
+    <text x="20" y="76" class="sans" font-size="12.5" fill="#57606a">Provider booking portals, high-conversion landing pages,</text>
+    <text x="20" y="95" class="sans" font-size="12.5" fill="#57606a">and ScrollTrigger-powered 60fps interactive web experiences.</text>
+
+    <line x1="20" y1="112.5" x2="397" y2="112.5" stroke="#eaeef2" stroke-width="1" />
+    <text x="20" y="129" class="mono" font-size="11" fill="#6e7781">SvelteKit · Vue 3 · TypeScript · GSAP</text>
+  </g>
+</svg>

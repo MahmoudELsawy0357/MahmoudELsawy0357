@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 848 34" width="100%" role="presentation">
+  <defs>
+    <linearGradient id="line-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#21262d" stop-opacity="0" />
+      <stop offset="12%" stop-color="#21262d" stop-opacity="1" />
+      <stop offset="88%" stop-color="#21262d" stop-opacity="1" />
+      <stop offset="100%" stop-color="#21262d" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="pulse-beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#79c0ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="track-clip">
+      <rect x="40" y="15" width="768" height="4" />
+    </clipPath>
+  </defs>
+
+  <rect width="848" height="34" fill="#0d1117" />
+  <line x1="24" y1="17.5" x2="824" y2="17.5" stroke="url(#line-fade)" stroke-width="1" />
+
+  <!-- Gliding Light Beam -->
+  <g clip-path="url(#track-clip)">
+    <rect x="-180" y="16.5" width="180" height="1.5" fill="url(#pulse-beam)">
+      <animate attributeName="x" from="-180" to="848" dur="4.2s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Center Architectural Node -->
+  <rect x="421" y="14.5" width="6" height="6" rx="1" transform="rotate(45 424 17.5)" fill="#0d1117" stroke="#484f58" stroke-width="1">
+    <animate attributeName="stroke" values="#30363d;#58a6ff;#30363d" dur="4.2s" repeatCount="indefinite" />
+  </rect>
+</svg>
