@@ -23,7 +23,6 @@
     .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
   </style>
 
-  <!-- Seamless GitHub Dark Canvas -->
   <rect width="848" height="208" fill="#0d1117" />
   <rect width="848" height="208" fill="url(#grid-dark)" mask="url(#grid-mask)" />
 
@@ -54,7 +53,7 @@
 
   <text x="52" y="106" class="sans" font-size="30" font-weight="700" fill="#f0f6fc" letter-spacing="-0.7">Mahmoud Elsawy</text>
   <text x="52" y="135" class="sans" font-size="14" fill="#8b949e">
-    Designing &amp; building fast, refined web interfaces and developer tools.
+    Designing &amp; building fast, refined web platforms and developer tools.
   </text>
   <text x="52" y="158" class="sans" font-size="13" fill="#6e7681">
     Vue 3, Nuxt, SvelteKit, React &amp; TypeScript — focused on UI craft and motion.
@@ -66,9 +65,9 @@
   <!-- Right Telemetry Column -->
   <text x="624" y="56" class="mono" font-size="10.5" fill="#6e7681" letter-spacing="1">CAIRO · EGYPT</text>
 
-  <text x="624" y="96" class="sans" font-size="22" font-weight="700" fill="#f0f6fc" letter-spacing="-0.5">2,730+</text>
-  <text x="624" y="113" class="mono" font-size="10" fill="#8b949e" letter-spacing="0.4">YEARLY CONTRIBUTIONS</text>
+  <text x="624" y="96" class="sans" font-size="22" font-weight="700" fill="#f0f6fc" letter-spacing="-0.5">9+ Shipped</text>
+  <text x="624" y="113" class="mono" font-size="10" fill="#8b949e" letter-spacing="0.4">PRODUCTION PLATFORMS</text>
 
-  <text x="624" y="146" class="sans" font-size="20" font-weight="700" fill="#f0f6fc" letter-spacing="-0.4">Production UI</text>
-  <text x="624" y="163" class="mono" font-size="10" fill="#6e7681" letter-spacing="0.4">FINTECH · EDTECH · DX CLI</text>
+  <text x="624" y="146" class="sans" font-size="22" font-weight="700" fill="#f0f6fc" letter-spacing="-0.4">2,730+</text>
+  <text x="624" y="163" class="mono" font-size="10" fill="#6e7681" letter-spacing="0.4">YEARLY CONTRIBUTIONS</text>
 </svg>
