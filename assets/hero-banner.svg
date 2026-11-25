@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%" role="img" aria-label="Mahmoud Elsawy - Front-End Developer">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050b18" />
+      <stop offset="55%" stop-color="#0a1122" />
+      <stop offset="100%" stop-color="#071521" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff">
+        <animate attributeName="stop-color" values="#00e5ff;#00dc82;#38bdf8;#00e5ff" dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00dc82">
+        <animate attributeName="stop-color" values="#00dc82;#00e5ff;#a855f7;#00dc82" dur="7s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00dc82" stop-opacity="0.45" />
+    </linearGradient>
+
+    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orbEmerald" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00dc82" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#00dc82" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#00e5ff" stroke-opacity="0.055" stroke-width="1" />
+    </pattern>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace; }
+    .pulse { animation: pulseAnim 2.2s ease-in-out infinite; }
+    .float { animation: floatAnim 5s ease-in-out infinite; }
+    .cursor { animation: blinkAnim 1.1s step-end infinite; }
+    @keyframes pulseAnim {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+    @keyframes floatAnim {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes blinkAnim {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Card Background & Grid -->
+  <rect width="1200" height="360" rx="18" fill="url(#bgGrad)" />
+  <rect width="1200" height="360" rx="18" fill="url(#grid)" />
+  <rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="url(#borderGrad)" stroke-width="2" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="170" cy="70" r="240" fill="url(#orbCyan)">
+    <animate attributeName="cx" values="170;220;170" dur="9s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="980" cy="290" r="250" fill="url(#orbEmerald)">
+    <animate attributeName="cy" values="290;240;290" dur="8s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- HUD Corner Accents -->
+  <path d="M 28 58 L 28 28 L 58 28" fill="none" stroke="#00e5ff" stroke-width="2" stroke-opacity="0.6" />
+  <path d="M 1172 302 L 1172 332 L 1142 332" fill="none" stroke="#00dc82" stroke-width="2" stroke-opacity="0.6" />
+
+  <!-- Left Content Column -->
+  <!-- Status Pill -->
+  <g transform="translate(56, 52)">
+    <rect width="276" height="30" rx="15" fill="#0c192c" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1" />
+    <circle cx="18" cy="15" r="4.5" fill="#00dc82" class="pulse" filter="url(#glow)" />
+    <text x="32" y="19.5" class="mono" font-size="11.5" fill="#7dd3fc" letter-spacing="1">// AVAILABLE_FOR_PROJECTS</text>
+  </g>
+
+  <!-- Main Heading -->
+  <text x="56" y="142" class="sans" font-size="50" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">
+    MAHMOUD <tspan fill="url(#accentGrad)">ELSAWY</tspan>
+  </text>
+
+  <!-- Role Subtitle -->
+  <text x="56" y="180" class="mono" font-size="16" font-weight="600" fill="#94a3b8" letter-spacing="0.5">
+    Front-End Engineer <tspan fill="#00e5ff">@neop-planet</tspan>  •  UI Architecture &amp; Dev Tooling
+  </text>
+
+  <!-- Bio Tagline -->
+  <text x="56" y="216" class="sans" font-size="15" fill="#cbd5e1">
+    Crafting fast, accessible, and motion-rich web applications with clean code &amp; modern frameworks.
+  </text>
+
+  <!-- Tech Chips Row -->
+  <g transform="translate(56, 248)" class="mono" font-size="11.5" font-weight="600">
+    <g transform="translate(0, 0)">
+      <rect width="74" height="28" rx="6" fill="#0f2922" stroke="#42b883" stroke-opacity="0.6" />
+      <text x="37" y="18" text-anchor="middle" fill="#42b883">VUE 3</text>
+    </g>
+    <g transform="translate(84, 0)">
+      <rect width="72" height="28" rx="6" fill="#092920" stroke="#00dc82" stroke-opacity="0.6" />
+      <text x="36" y="18" text-anchor="middle" fill="#00dc82">NUXT</text>
+    </g>
+    <g transform="translate(166, 0)">
+      <rect width="102" height="28" rx="6" fill="#2a1512" stroke="#ff5722" stroke-opacity="0.6" />
+      <text x="51" y="18" text-anchor="middle" fill="#ff7849">SVELTEKIT</text>
+    </g>
+    <g transform="translate(278, 0)">
+      <rect width="78" height="28" rx="6" fill="#0c2438" stroke="#38bdf8" stroke-opacity="0.6" />
+      <text x="39" y="18" text-anchor="middle" fill="#38bdf8">REACT</text>
+    </g>
+    <g transform="translate(366, 0)">
+      <rect width="110" height="28" rx="6" fill="#0d213f" stroke="#3b82f6" stroke-opacity="0.6" />
+      <text x="55" y="18" text-anchor="middle" fill="#60a5fa">TYPESCRIPT</text>
+    </g>
+    <g transform="translate(486, 0)">
+      <rect width="102" height="28" rx="6" fill="#082836" stroke="#06b6d4" stroke-opacity="0.6" />
+      <text x="51" y="18" text-anchor="middle" fill="#22d3ee">TAILWIND</text>
+    </g>
+  </g>
+
+  <!-- Right Floating Terminal Card -->
+  <g class="float">
+    <g transform="translate(724, 48)">
+      <!-- Card Shadow & Frame -->
+      <rect x="4" y="6" width="424" height="264" rx="12" fill="#020617" opacity="0.65" />
+      <rect width="424" height="264" rx="12" fill="#0b1324" stroke="#1e293b" stroke-width="1.5" />
+
+      <!-- Window Header -->
+      <rect width="424" height="36" rx="12" fill="#111c33" />
+      <rect y="24" width="424" height="12" fill="#111c33" />
+      <line x1="0" y1="36" x2="424" y2="36" stroke="#1e293b" stroke-width="1" />
+      <circle cx="20" cy="18" r="5.5" fill="#ef4444" />
+      <circle cx="38" cy="18" r="5.5" fill="#f59e0b" />
+      <circle cx="56" cy="18" r="5.5" fill="#10b981" />
+      <text x="212" y="22" text-anchor="middle" class="mono" font-size="11.5" fill="#64748b">mahmoud.profile.ts</text>
+
+      <!-- Code Content -->
+      <g transform="translate(22, 64)" class="mono" font-size="12.5">
+        <text y="0"><tspan fill="#c084fc">const</tspan> <tspan fill="#38bdf8">developer</tspan> <tspan fill="#94a3b8">=</tspan> <tspan fill="#fbbf24">{</tspan></text>
+        <text y="26"><tspan fill="#94a3b8">  name:</tspan> <tspan fill="#4ade80">"Mahmoud Elsawy"</tspan><tspan fill="#64748b">,</tspan></text>
+        <text y="52"><tspan fill="#94a3b8">  role:</tspan> <tspan fill="#4ade80">"Front-End Developer"</tspan><tspan fill="#64748b">,</tspan></text>
+        <text y="78"><tspan fill="#94a3b8">  team:</tspan> <tspan fill="#4ade80">"@neop-planet"</tspan><tspan fill="#64748b">,</tspan></text>
+        <text y="104"><tspan fill="#94a3b8">  location:</tspan> <tspan fill="#4ade80">"Egypt"</tspan><tspan fill="#64748b">,</tspan></text>
+        <text y="130"><tspan fill="#94a3b8">  passion:</tspan> <tspan fill="#fbbf24">[</tspan><tspan fill="#22d3ee">"Clean UI"</tspan><tspan fill="#64748b">, </tspan><tspan fill="#22d3ee">"DX Tools"</tspan><tspan fill="#fbbf24">]</tspan><tspan fill="#64748b">,</tspan></text>
+        <text y="156"><tspan fill="#94a3b8">  shipReady:</tspan> <tspan fill="#f472b6">true</tspan></text>
+        <text y="182"><tspan fill="#fbbf24">}</tspan><tspan fill="#64748b">;</tspan><tspan fill="#00e5ff" class="cursor"> ▋</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
